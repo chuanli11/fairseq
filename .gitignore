@@ -111,3 +111,9 @@ fairseq/temporal_convolution_tbc
 
 # data
 data-bin/
+
+
+venv-fairseq/*
+examples/translation/*
+examples/scaling_nmt/*
+wmt16_en_de.tar.gz
