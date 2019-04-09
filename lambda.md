@@ -118,7 +118,7 @@ Throughput (words/sec)
 | max-tokens=64000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  |  |
 
 
-**Scaling Neural Machine Translation**
+**Scaling Neural Machine Translation (FP16)**
 
 cutoff 3584
 
