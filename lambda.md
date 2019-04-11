@@ -102,20 +102,18 @@ Memory Requirement
 | max-tokens=2000 | 8GB |
 | max-tokens=4000 | 11GB |
 | max-tokens=8000 | 24GB |
-| max-tokens=16000 |  |
-| max-tokens=32000 |  |
-| max-tokens=64000 |  |
+| max-tokens=16000 | 48GB |
+| max-tokens=32000 | x |
 
 Throughput (words/sec) 
 
 |   | 2060  | 2070  | 2080  |  1080 Ti | 2080 Ti | TitanRTX | Quadro RTX 6000 | V100 | Quadro RTX 8000 |
 |---|---|---|---|---|---|---|---|---|---|
-| max-tokens=2000  | OOM | 4597 |  |  | 7780 | 8498 |  |  |  |
-| max-tokens=4000  | OOM | OOM | OOM |  | 9103 | 10351 |  |  |  |
-| max-tokens=8000  | OOM | OOM | OOM | OOM | OOM | 11431 |  |  |  |
-| max-tokens=16000  | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  |  |
-| max-tokens=32000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  |  |
-| max-tokens=64000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  |  |
+| max-tokens=2000  | OOM | 4597 | 6317 | 6207 | 7780 | 8498 | 7407 |  | 7507 |
+| max-tokens=4000  | OOM | OOM | OOM | 7290 | 9103 | 10351 | 10157 |  | 10307 |
+| max-tokens=8000  | OOM | OOM | OOM | OOM | OOM | 11431 | 11073 |  | 10857 |
+| max-tokens=16000  | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | 11014 |
+| max-tokens=32000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | OOM |
 
 
 **Scaling Neural Machine Translation (FP16)**
@@ -137,9 +135,9 @@ Throughput (words/sec)
 
 |   | 2060  | 2070  | 2080  |  1080 Ti | 2080 Ti | TitanRTX | Quadro RTX 6000 | V100 | Quadro RTX 8000 |
 |---|---|---|---|---|---|---|---|---|---|
-| max-tokens=2000  | OOM | 7721 |  |  | 13558 | 16372 |  |  |  |
-| max-tokens=3584  | OOM | OOM |  |  | 15671 | 19490 |  |  |  |
-| max-tokens=8000  | OOM | OOM |  |  | OOM | 21180 |  |  |  |
-| max-tokens=16000 | OOM | OOM |  |  | OOM | OOM |  |  |  |
-| max-tokens=32000 | OOM | OOM |  |  | OOM | OOM |  |  |  |
-| max-tokens=64000 | OOM | OOM |  |  | OOM | OOM |  |  |  |
+| max-tokens=2000  | OOM | 7721 | 9950 | 5256 | 13558 | 16372 | 16200 |  | 16099 |
+| max-tokens=3584  | OOM | OOM | OOM | 5870 | 15671 | 19490 | 19596 |  | 19740 |
+| max-tokens=8000  | OOM | OOM | OOM | OOM | OOM | 21180 | 20500 |  | 20539  |
+| max-tokens=16000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | OOM |
+| max-tokens=32000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | OOM |
+| max-tokens=64000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | OOM |
