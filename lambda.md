@@ -124,12 +124,10 @@ Memory Requirement
 
 | Max NUM Tokens | Memory  |
 |---|---|
-| max-tokens=2000 | |
-| max-tokens=3584 | |
-| max-tokens=8000 | |
-| max-tokens=16000 |  |
-| max-tokens=32000 |  |
-| max-tokens=64000 |  |
+| max-tokens=2000 | 8GB |
+| max-tokens=3584 | 11GB |
+| max-tokens=8000 | 24GB |
+| max-tokens=16000 | 48GB | 
 
 Throughput (words/sec) 
 
@@ -138,6 +136,4 @@ Throughput (words/sec)
 | max-tokens=2000  | OOM | 7721 | 9950 | 5256 | 13558 | 16372 | 16200 |  | 16099 |
 | max-tokens=3584  | OOM | OOM | OOM | 5870 | 15671 | 19490 | 19596 |  | 19740 |
 | max-tokens=8000  | OOM | OOM | OOM | OOM | OOM | 21180 | 20500 |  | 20539  |
-| max-tokens=16000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | OOM |
-| max-tokens=32000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | OOM |
-| max-tokens=64000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | OOM |
+| max-tokens=16000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | 22450 |
