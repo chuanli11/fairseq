@@ -102,7 +102,7 @@ Memory Requirement
 | max-tokens=2000 | 8GB |
 | max-tokens=4000 | 11GB |
 | max-tokens=8000 | 24GB |
-| max-tokens=16000 | 48GB |
+| max-tokens=16000 | 32GB |
 | max-tokens=32000 | x |
 
 Throughput (words/sec) 
@@ -111,8 +111,8 @@ Throughput (words/sec)
 |---|---|---|---|---|---|---|---|---|---|
 | max-tokens=2000  | OOM | 4597 | 6317 | 6207 | 7780 | 8498 | 7407 |  | 7507 |
 | max-tokens=4000  | OOM | OOM | OOM | 7290 | 9103 | 10351 | 10157 |  | 10307 |
-| max-tokens=8000  | OOM | OOM | OOM | OOM | OOM | 11431 | 11073 |  | 10857 |
-| max-tokens=16000  | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | 11014 |
+| max-tokens=8000  | OOM | OOM | OOM | OOM | OOM | 11431 | 11073 | 11218 | 10857 |
+| max-tokens=16000  | OOM | OOM | OOM | OOM | OOM | OOM | OOM | 11515 | 11014 |
 | max-tokens=32000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | OOM |
 
 
@@ -136,4 +136,4 @@ Throughput (words/sec)
 | max-tokens=2000  | OOM | 7721 | 9950 | 5256 | 13558 | 16372 | 16200 |  | 16099 |
 | max-tokens=3584  | OOM | OOM | OOM | 5870 | 15671 | 19490 | 19596 |  | 19740 |
 | max-tokens=8000  | OOM | OOM | OOM | OOM | OOM | 21180 | 20500 |  | 20539  |
-| max-tokens=16000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM |  | 22450 |
+| max-tokens=16000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM | 21769 | 22450 |
